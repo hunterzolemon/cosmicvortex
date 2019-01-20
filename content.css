@@ -1,0 +1,30 @@
+
+.container-fluid{
+  padding: 3em;
+  background-color: grey;
+  
+
+}
+.container{
+  margin: 2em;
+  padding: 5em;
+  background-color: grey;
+  border-radius: 1em;
+}
+
+.cos-header{
+  border-bottom:5px solid #555;
+  width: 100%;
+  background-origin: none;
+
+}
+.cos-header:hover{
+  border-bottom:5px solid #999;
+  width: 100%;
+  cursor: default;
+
+
+}
+
+
+
