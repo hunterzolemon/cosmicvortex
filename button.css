@@ -1,0 +1,236 @@
+
+body,
+input,
+select,
+textarea {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 96%);
+  font-size: 1em;
+  
+  line-height: 1.5;
+}
+.cos-big{
+	padding:4em;
+}
+.cos-button{
+  background-color: hsl(0, 0%, 96%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-blue{
+	background-color:	hsl(201, 88%, 67%);
+}
+.cos-button-blue{
+  background-color:	hsl(201, 88%, 67%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-green{
+	background-color:hsl(141, 71%, 48%);
+}
+.cos-button-green{
+  background-color:hsl(141, 71%, 48%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-yellow{
+	background-color:hsl(48, 100%, 67%);
+}
+.cos-button-yellow{
+  background-color:hsl(48, 100%, 67%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-pink{
+	background-color:hsl(323, 66%, 67%);
+}
+.cos-button-pink{
+  background-color:hsl(323, 66%, 67%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-black{
+	background-color:hsl(0, 0%, 21%);
+}
+.cos-button-black{
+  background-color:hsl(0, 0%, 21%);
+  border-color:black;
+  border-width: 2px;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-vio{
+	background-color:hsl(243, 32%, 53%);
+}
+.cos-button-vio{
+  background-color:hsl(243, 32%, 53%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-brown{
+	background-color:hsl(44, 84%, 29%);
+}
+.cos-button-brown{
+  background-color:hsl(44, 84%, 29%);
+  border-color:black;
+  border-width: 2px;
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-teal{
+	background-color:hsl(99, 85%, 78%);
+}
+.cos-button-teal{
+  background-color:hsl(99, 85%, 78%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-pillo{
+	background-color:hsl(80, 77%, 80%);
+}
+.cos-button-pillo{
+  background-color:hsl(80, 77%, 80%);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-orange{
+	background-color:hsla(35, 84%, 59%, 0.96);
+}
+.cos-button-orange{
+  background-color:hsla(35, 84%, 59%, 0.96);
+  border-color:black;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-red{
+	background-color:hsl(357, 83%, 52%);
+}
+.cos-button-red{
+  background-color:hsl(357, 83%, 52%);
+  border-color:black;
+  border-width: 2px;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+
+
+
+
+
