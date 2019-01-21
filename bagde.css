@@ -1,0 +1,20 @@
+.cos-badge {
+	text-decoration: none;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #444
+}
+.cos-badge:hover, .cos-badge:focus {
+  text-decoration: none;
+}
+
+.cos-badge:empty {
+  display: none;
+}
