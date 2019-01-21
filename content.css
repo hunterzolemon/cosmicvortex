@@ -17,6 +17,17 @@
   border:2px solid black;
 }
 
+.cos-section {
+  background-color: grey;
+  margin-top: 2em;
+  margin-left: 3em;
+  max-width: 90%;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #fafafa;
+  border-radius: 0.3rem;
+  border:2px solid black;
+}
 
 .container{
   margin: 2em;
