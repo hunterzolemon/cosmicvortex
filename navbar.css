@@ -1,0 +1,54 @@
+
+.cos-navbar {
+  
+  background-color: #333;
+  display: block; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+/* Links inside the navbar */
+.cos-navbar a {
+  
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding:10px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.cos-navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.cos-bottom-nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.cos-bottom-nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.cos-bottom-nav a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.cos-bottom-nav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
