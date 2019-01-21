@@ -1,0 +1,36 @@
+.cos-card{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+ width: 80%;
+}
+img{
+	width: 100%;
+}
+.cos-card-small{
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 300px;
+}
+.cos-card-medium{
+
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 600px;
+}
+.cos-card-big{
+
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 1000px;
+}
+.cos-card-large{
+	
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 1200px;
+}
