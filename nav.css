@@ -2,6 +2,12 @@ body{
   width: 100%;
   margin-left: 0px;
   margin-top: 0px;
+  user-select: none;
+  font-family: "Monospace",Courier New;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size: 16px;
 }
   nav{
     width: 100%;
@@ -16,7 +22,6 @@ body{
     margin-left: 0px;
     margin-top: 0px;
     
-    
   }
   nav li{
     display: inline-block;
@@ -24,7 +29,10 @@ body{
   }
   nav li a{
     text-decoration: none;
-    color: #888;
+    color: #fff;
     padding: 1em;
   
+  }
+  nav li a:hover,nav li a:active,nav li a:focus{
+    background-color: #588;
   }
