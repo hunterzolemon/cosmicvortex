@@ -1,0 +1,23 @@
+
+.navbar{
+    margin-left:0px; 
+    
+    background:transparent;
+    width: 15%;
+    
+
+  }
+  
+  .navbar li{
+  display: grid;
+  direction: vertical;
+  margin:0px;
+
+  }
+  .navbar li a{
+    text-decoration: none;
+    color: #222222;
+    border: 5px solid #333333;
+    font-size: 18px;
+  
+  }
