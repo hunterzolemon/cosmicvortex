@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  user-select: none;
+   line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  overflow-x:hidden;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  user-select: none;
+  font-weight: bold;
+  color: #111;
+}
+@media only screen and (min-width: 420px){
+   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10{
+    float: left;
+  }
+  .col-10 {
+    width: 88.33333333%;
+  }
+  .col-9 {
+    width: 80.1232%;
+  }
+  .col-8 {
+    width: 72.66666667%;
+  }
+  .col-7 {
+    width: 62.33333333%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-5 {
+    width: 45.66666667%;
+  }
+  .col-4 {
+    width: 33.33333333%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-2 {
+    width: 16.66666667%;
+  }
+  .col-1 {
+    width: 8.33333333%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10{
+    float: left;
+  }
+
+  .col-10 {
+    width: 88.33333333%;
+  }
+  .col-9 {
+    width: 80.1232%;
+  }
+  .col-8 {
+    width: 72.66666667%;
+  }
+  .col-7 {
+    width: 62.33333333%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-5 {
+    width: 45.66666667%;
+  }
+  .col-4 {
+    width: 33.33333333%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-2 {
+    width: 16.66666667%;
+  }
+  .col-1 {
+    width: 8.33333333%;
+  }
+}
+@media only screen and (min-width: 992px){
+   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10{
+    float: left;
+  }
+
+  .col-10 {
+    width: 88.33333333%;
+  }
+  .col-9 {
+    width: 80.1232%;
+  }
+  .col-8 {
+    width: 72.66666667%;
+  }
+  .col-7 {
+    width: 62.33333333%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-5 {
+    width: 45.66666667%;
+  }
+  .col-4 {
+    width: 33.33333333%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-2 {
+    width: 16.66666667%;
+  }
+  .col-1 {
+    width: 8.33333333%;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10{
+    float: left;
+  }
+  .col-10 {
+    width: 88.33333333%;
+  }
+  .col-9 {
+    width: 80.1232%;
+  }
+  .col-8 {
+    width: 72.66666667%;
+  }
+  .col-7 {
+    width: 62.33333333%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-5 {
+    width: 45.66666667%;
+  }
+  .col-4 {
+    width: 33.33333333%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-2 {
+    width: 16.66666667%;
+  }
+  .col-1 {
+    width: 8.33333333%;
+  }
+}
+
+
+.cos-container{
+  display: grid;
+  grid: '1';
+  margin: 1em;
+  padding: 5em;
+  background-color: grey;
+  border-radius: 1em;
+
+}
+.grid-container {
+  display: grid;
+  grid: '1 1';
+  padding: 10px;
+  text-align: center;
+}
+.grid-container > h2{
+  background-color: #234232;
+
+}
+/*=========flex===========*/
+.flex-container {
+  display: -webkit-flex-inline;
+  display: flex-inline;  
+  -webkit-flex-flow: nowrap;
+  flex-flow: nowrap;
+  flex: 1 100%;
+  margin: 1em;
+  padding: 5em;
+}
+/*=========== text================*/
+h1{
+  font-size: 4em;
+}
+h2{
+  font-size: 3.5em;
+}
+h3{
+  font-size: 2.5em;
+}
+h4{
+  font-size: 1.5em;
+}
+h5{
+  font-size: 1.2em;
+}
+p{
+  font-size: 1em;
+}
+/*=========== cos head================*/
+.cos-head{
+  font-size: 7em;
+  text-align: center;
+
+}
+.cos-head:hover{
+	color: #f2f2f2;
+}
+/*=================== colour================================*/
+.blue {color: #007bff;}
+  .indigo{color:#6610f2;}
+  .purple{color: #6f42c1;}
+  .pink{color: #e83e8c;}
+  .red{color: #dc3545;}
+  .orange{color: #fd7e14;}
+  .yellow{color: #ffc107;}
+  .green{color: #28a745;}
+  .teal{color: #20c997;}
+  .cyan{color: #17a2b8;}
+  .white{color: #fff;}
+  .gray{color: #6c757d;}
+  .gray-dark{color: #343a40;}
+  .primary{color: #cdcdcd;}
+  .secondary{color: #b0b0b0;}
+  .success{color: #28a745;}
+  .info{color: #8e8e8e;}
+  .warning{color: #ffc107;}
+  .danger{color: #dc3545;}
+  .light{color: #eaeaea;}
+  .dark{color: #555555;}
+
+  .bg-blue {background-color: #007bff;}
+  .bg-indigo{background-color:#6610f2;}
+  .bg-purple{background-color: #6f42c1;}
+  .bg-pink{background-color: #e83e8c;}
+  .bg-red{background-color: #dc3545;}
+  .bg-orange{background-color: #fd7e14;}
+  .bg-yellow{background-color: #ffc107;}
+  .bg-green{background-color: #28a745;}
+  .bg-teal{background-color: #20c997;}
+  .bg-cyan{background-color: #17a2b8;}
+  .bg-white{background-color: #fff;}
+  .bg-gray{background-color: #6c757d;}
+  .bg-gray-dark{background-color: #343a40;}
+  .bg-primary{background-color: #cdcdcd;}
+  .bg-secondary{background-color: #b0b0b0;}
+  .bg-success{background-color: #28a745;}
+  .bg-info{background-color: #8e8e8e;}
+  .bg-warning{background-color: #ffc107;}
+  .bg-danger{background-color: #dc3545;}
+  .bg-light{background-color: #eaeaea;}
+  .bg-dark{background-color: #555555;}
+  /*==================== cos colour===============================*/
+.cos-blue{
+  background-color: hsl(201, 88%, 67%);
+}
+
+.cos-green{
+  background-color:hsl(141, 71%, 48%);
+}
+
+.cos-yellow{
+  background-color:hsl(48, 100%, 67%);
+}
+
+.cos-pink{
+  background-color:hsl(323, 66%, 67%);
+}
+
+.cos-black{
+  background-color:hsl(0, 0%, 21%);
+}
+
+.cos-vio{
+  background-color:hsl(243, 32%, 53%);
+}
+
+.cos-brown{
+  background-color:hsl(44, 84%, 29%);
+}
+
+.cos-teal{
+  background-color:hsl(99, 85%, 78%);
+}
+
+.cos-pillo{
+  background-color:hsl(80, 77%, 80%);
+}
+
+.cos-orange{
+  background-color:hsla(35, 84%, 59%, 0.96);
+}
+
+.cos-red{
+  background-color:hsl(357, 83%, 52%);
+}
+/*==================== badge===============================*/
+
+
+.cos-badge {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #444;
+}
+.cos-badge:hover, .cos-badge:focus {
+  text-decoration: none;
+}
+
+.cos-badge:empty {
+  display: none;
+}
+
+/*===================================================*/
+
+
+
+/*========================= cos button==========================*/
+
+.cos-button{
+  
+  border-color:black;
+  border-width: 2px;
+  
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.cos-button:hover{
+  background-color: #fff;
+  -webkit-transition:.6s;
+  transition: .6s;
+ 
+}
+
+.cos-button:focus{
+  
+  -webkit-transition:0s;
+  transition: 0s;
+ 
+}
+
+
+.cos-button:active{
+  
+  -webkit-transition:0s;
+  transition: 0s;
+ 
+}
+
+
+.cos-pill-button {
+  display: inline-block;
+  padding: 14px 28.8px;
+  margin-bottom: 0;
+
+
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  /* ensure that buttons do not have a border */
+
+  border-radius: 2em;
+ }
+.cos-pill-button:focus {
+  outline: none;
+  color: #333;
+}
+
+.cos-pill-button:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.cos-pill-button:active {
+   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+   color: #333;
+}
+
+
+.cos-block-button {
+  font-family: "Open Sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: block;
+  width: 20%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  font-weight: 80%;
+  text-transform: uppercase;
+  border:1px transparent;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  border:1px outset white;
+
+}
+.cos-block-button:hover{
+  background-color: #333;
+
+}
+.cos-block-button:focus{
+  outline: none;
+}
+.cos-block-button:active{
+  border:1px outset grey;
+  overflow: none;
+
+}
+
+/*===================== cos card==============================*/
+.cos-card{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+ width: 80%;
+}
+img{
+  width: 100%;
+}
+.cos-card-small{
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 300px;
+}
+.cos-card-medium{
+
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 600px;
+}
+.cos-card-big{
+
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 1000px;
+}
+.cos-card-large{
+  
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 1200px;
+}
+
+/*===================== box==============================*/
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px;
+    grid-gap: 10px;
+}
+.box-card {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #333;
+    border-radius: 2em;
+    text-align: center;
+}
+.box1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #333;
+}
+.box2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #333;
+}
+
+.box3 {
+    grid-row: 1;
+    grid-column: 3;
+    background-color: #333;
+}
+.box4 {
+    grid-row: 1;
+    grid-column: 4;
+    background-color: #333;
+}
+.box5 {
+    grid-row: 1;
+    grid-column: 5;
+    background-color: #333;
+}
+.box-flex {
+    grid-row: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+/*====================== coloum=============================*/
+.cos-column {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.cos-column > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/*=========================content==========================*/
+
+.container-fluid{
+  padding: 3em;
+  background-color: grey;
+  
+
+}
+.cos-mini-content {
+  background-color: grey;
+  margin-top: 5px;
+  margin-left: 5px;
+  max-width: 400px;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #fafafa;
+  border-radius: 0.3rem;
+  border:2px solid black;
+}
+
+.cos-section {
+  background-color: grey;
+  margin-top: 2em;
+  margin-left: 3em;
+  max-width: 90%;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #fafafa;
+  border-radius: 0.3rem;
+  border:2px solid black;
+}
+
+.cos-header{
+  border-bottom:5px solid #555;
+  width: 100%;
+  background-origin: none;
+
+}
+.cos-header:hover{
+  border-bottom:5px solid #999;
+  width: 100%;
+  cursor: default;
+
+
+}
+
+
+
+/*======================== navbar===========================*/
+
+  nav{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #444444;
+    text-align: center;
+    position: relative;
+  }
+  nav ul{
+    margin-left: 0px;
+    margin-top: 0px;
+    
+  }
+  nav li{
+    display: inline-block;
+    padding: 1em;
+  }
+  nav li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+  
+  }
+  nav li a:hover,nav li a:active,nav li a:focus{
+    background-color: #588;
+  }
+
+/*========================cos navbar===========================*/
+
+.cos-navbar {
+  
+  background-color: #333;
+  display: block; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  margin-bottom: 2em;
+  /* Full width */
+}
+
+/* Links inside the navbar */
+.cos-navbar a {
+  
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding:10px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.cos-navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.cos-bottom-nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.cos-bottom-nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.cos-bottom-nav a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.cos-bottom-nav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+/*=======================vertical navbar============================*/
+
+.navbar{
+    margin-left:0px; 
+    
+    background:transparent;
+    width: 15%;
+    
+
+  }
+  
+  .navbar li{
+  display: grid;
+  direction: vertical;
+  margin:0px;
+
+  }
+  .navbar li a{
+    text-decoration: none;
+    color: #222222;
+    border: 5px solid #333333;
+    font-size: 18px;
+  
+  }
+
+/*===================================================*/
